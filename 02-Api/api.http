@@ -1,0 +1,14 @@
+### Recuperamos informacion de un documento json dentro de la aplicacion
+GET http://localhost:8090/exampleJson
+
+### Creamo un pokemon
+POST http://localhost:8090/create
+Content-Type: application/json
+
+{
+    "name" : "Ditto",
+    "type" : "normal",
+    "moves" : [
+        "transform"
+    ]
+}
