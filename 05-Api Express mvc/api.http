@@ -1,0 +1,36 @@
+### Recuperar todas las peliculas
+GET http://localhost:1234/movies
+
+### Rcuperar una pelicula por ID erronea
+GET http://localhost:1234/movies/1
+
+### Rcuperar una pelicula por ID
+GET http://localhost:1234/movies/b33f9059-a4c6-40b0-89d6-40fee340c6d9
+
+### Recuperar todas las peliculas por un genero
+GET http://localhost:1234/movies?genre=action
+
+### Eliminamos una pelicula
+DELETE http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+
+### Registrar una pelicula
+POST http://localhost:1234/movies
+Content-Type: application/json 
+
+{
+    "title":"Prueba",
+    "year":1999,
+    "director":"Prueba",
+    "duration":175,
+    "poster":"poster.png",
+    "genre":["Crime"]
+}
+
+### Actualizar pelicula
+PATCH  http://localhost:1234/movies/d47f9fe2-1c1f-4490-8e11-2413ec1b340b
+Content-Type: application/json
+
+{
+    "year":1995
+}
+
