@@ -23,11 +23,11 @@ El objetivo de este proyecto es proporcionar recursos práctico para aprender co
 ## Poryectos
 
 - 01-conceptosBasicos: Contiene los conceptos básicos para empezar con este lenguaje, como importar modulos, gestion de documentos, uso de async y sinc, promesas, conexiones a puertos...
-- 02-Api: Desarrollo de una API con solo nodeJS
-- 03-Api Express: Desarrollo de una API usando el framework express
-- 04-Api Express con cors: Desarrollo de una API usando el framework express habilitando el cors
-- 05-Api Express mvc: Implementacion del patron MVC (usando la informacion del proyecto 04-Api Express con cors)
-
+- 02-Api: Desarrollo API con solo nodeJS
+- 03-Api Express: Desarrollo API usando express
+- 04-Api Express con cors: Desarrollo API con express y cors
+- 05-Api Express mvc: Desarrollo API express con patron MVC
+- 06-Api Express mvc bbdd: Desarrollo API express con MVC y conexion a base de datos.
 
 ## Instalación
 
@@ -35,7 +35,6 @@ El objetivo de este proyecto es proporcionar recursos práctico para aprender co
 2. Clona este repositorio: `git clone https://github.com/jorgenavarroenamoradotokio/nodeJs.git`
 3. Navega hasta el directorio del proyecto: `cd nombre-del-proyecto`
 4. Instala las dependencias: `npm install`
-
 
 ## Contribución
 
